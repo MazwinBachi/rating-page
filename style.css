@@ -1,0 +1,86 @@
+@font-face {
+    font-family: myFont;
+    src: url('./font/Overpass-VariableFont_wght.ttf');
+}
+body{
+    font-family: myFont;
+    background-color:hsl(216, 12%, 8%);
+}
+/* .container{
+    display: flex;
+} */
+.main-body{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 30%, 12%);
+    border-radius: 25px;
+    padding: 20px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+}
+.sub-inner{
+    max-width: 85%;
+    max-height: 85%;
+}
+.star{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+}
+.heading{
+    color: white;
+    margin-top: 30px;
+}
+.para{
+    color: hsl(206, 4%, 66%);
+    font-size: 15px;
+    max-width: 100%;
+}
+.rating{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    color: hsl(206, 4%, 66%);
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    margin-top: 30px; 
+}
+.btn{
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    border-style: hidden;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+@media screen and (max-width: 975px){
+    .main-body{
+        width: 280px;
+        height: 330px;
+    }
+    .heading{
+        color: white;
+        margin-top: 20px;
+    }
+    .star{
+        margin-top: 3px;
+    }
+    .sub-inner{
+        max-width: 95%;
+        max-height: 95%;
+    }
+}
