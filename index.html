@@ -6,12 +6,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="style.css">
-
-  
 </head>
 <body>
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-  
   <script src="script.js"></script>
 
   
@@ -19,39 +16,43 @@
   <div class="container">
     <div class="main-body">
       <div class="sub-inner">
-      <div class="star">
-        <img src="./images/icon-star.svg" alt="">
-      </div>
-      <div class="heading">
-        <h1>How did we do?</h1>
-      </div>
-      <div class="para">
-        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
-      </div>
-      <div class="rating">
-        <div class="star star-hover">
-          <p>1</p>
+
+        <div class="star">
+          <img src="./images/icon-star.svg" alt="">
         </div>
-        <div class="star star-hover">
-          <p>2</p>
+        <div class="heading">
+          <h1>How did we do?</h1>
         </div>
-        <div class="star star-hover">
-          <p>3</p>
+        <div class="para">
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
         </div>
-        <div class="star star-hover">
-          <p>4</p>
+        <div class="rating">
+          <input type="radio" name="rbtn" id="five">
+            <label for="five" class="star star-hover">5</label>
+
+          <input type="radio" name="rbtn" id="four">
+            <label for="four" class="star star-hover">4</label> 
+
+          <input type="radio" name="rbtn" id="three">
+            <label for="three" class="star star-hover">3</label> 
+
+          <input type="radio" name="rbtn" id="two">
+            <label for="two" class="star star-hover">2</label> 
+
+          <input type="radio" name="rbtn" id="one">
+            <label for="one" class="star star-hover">1</label>
         </div>
-        <div class="star star-hover">
-          <p>5</p>
+
+        <div class="sbtn-div">
+          <button type="submit" class="sbtn">SUBMIT</button>
         </div>
+
       </div>
-      <div class="btn-div">
-        <button type="submit" class="btn">SUBMIT</button>
-      </div>
-    </div>
     </div>
   </div>
 
+
+  
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Mazwin B/a>.
