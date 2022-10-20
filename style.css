@@ -74,8 +74,8 @@ body{
 .sub-inner .rating input{
     display: none;
 }
-
-.rating input:not(:checked)~label:hover{
+input:not(:checked)~label:hover,
+input:not(:checked)~label:hover{
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
     color: white;
