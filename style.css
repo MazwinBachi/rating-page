@@ -5,6 +5,7 @@
 body{
     font-family: myFont;
     background-color:hsl(216, 12%, 8%);
+    font-size: 15px;
 }
 .main-body{
     display: flex;
@@ -84,6 +85,59 @@ input:checked + label{
     background-color: hsl(217, 12%, 63%);
     color: white;
 }
+.sub-inner-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-inner-two{
+    display: none;
+}
+.phone-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.result-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.result{
+        width: 180px;
+        height: 30px;
+        border-radius: 25px;
+        background-color: hsl(213, 19%, 18%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(25, 97%, 53%);
+        padding-top: 3px;
+}
+.thanks-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.thanks{
+    color: white;
+}
+.aprr-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+}
+.appr{
+    width: 98%;
+    text-align: center;
+    color: hsl(206, 4%, 66%);;
+}
+
 @media screen and (max-width: 975px){
     .main-body{
         width: 280px;
@@ -99,5 +153,10 @@ input:checked + label{
     .sub-inner{
         max-width: 95%;
         max-height: 95%;
+    }
+    .appr{
+        width: 100%;
+        text-align: center;
+        color: hsl(206, 4%, 66%);;
     }
 }
